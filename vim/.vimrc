@@ -17,5 +17,9 @@ set nobackup
 set autochdir
 set hidden
 
+" save read-only files as root
 cnoremap sudow w !sudo tee % >/dev/null
+
+" C-c to copy to clipboard
+vnoremap <C-c> :w !pbcopy<CR><CR>
 
