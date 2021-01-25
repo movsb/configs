@@ -1,6 +1,10 @@
 syntax on
 set nocompatible
 
+" https://vimhelp.org/pattern.txt.html#%2Fmagic
+" https://stackoverflow.com/a/3760486/3628322
+set magic
+
 " line numbers
 set relativenumber
 set nu
